@@ -8,7 +8,7 @@ How to create a PDF with mPDF library.
 Simply clone the repo & require for library mPDF with composer (composer require mpdf/mpdf) 
 
 ## Perform
-Just replace code and use your template (in template.php)
+Just replace code and use your template (in template.php).
 
 ## Files
 
