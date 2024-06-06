@@ -15,7 +15,7 @@ Just replace code and use your template (in template.php).
 - html2pdf.php: a sample document with mPDF object
 - template.php: your HTML template with labels (to be filled however you want)
 - vendor {folder} with mPDF dependencies {must be downloaded from the author's repository - composer require mpdf/mpdf}
-- info/: 
+- info/: documents with information about properties and methods of the mPDF object [EN](info/mPDF-methods-properties.md) [ES](info/mPDF-métodos-propiedades.md)
 - img/logo.svg: only important images are here.
 
 
