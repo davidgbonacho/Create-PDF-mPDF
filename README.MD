@@ -18,7 +18,61 @@ Just replace code and use your template (in template.php).
 - info/: documents with information about properties and methods of the mPDF object [EN](info/mPDF-methods-properties.md) [ES](info/mPDF-métodos-propiedades.md)
 - img/logo.svg: only important images are here.
 
-## Building
+# Building
+
+To use this application, you need to have the following PHP extensions installed:
+
+- **GD**: Required by the `mpdf/mpdf` library for generating PDF files.
+
+### Installing PHP Extensions
+
+#### On Linux (Ubuntu/Debian)
+
+To install the GD extension, run:
+
+    sudo apt-get update
+    sudo apt-get install php-gd
+
+
+After installing, restart your web server:
+
+```sh
+sudo systemctl restart apache2
+# or if using nginx
+sudo systemctl restart nginx
+
+```
+#### On Windows 
+ 
+1. Locate your `php.ini` file (typically found in your PHP installation directory).
+ 
+2. Open `php.ini` in a text editor.
+ 
+3. Find the line that contains `;extension=gd` and remove the semicolon (`;`) at the beginning to uncomment it:
+
+```ini
+extension=gd
+```
+ 
+4. Save the `php.ini` file and restart your web server (Apache, Nginx, etc.).
+
+#### On macOS (using Homebrew) 
+
+To install PHP and the GD extension, run:
+
+    $ brew install php
+
+Verify that the GD extension is enabled in your `php.ini` file.
+
+### Verifying GD Installation 
+
+To check if the GD extension is correctly installed and enabled, run:
+
+    $ php -m | grep gd
+
+If `gd` appears in the output, the extension is enabled.
+
+## Installing Dependencies 
 
 Clone git repository:
 
