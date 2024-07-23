@@ -18,6 +18,20 @@ Just replace code and use your template (in template.php).
 - info/: documents with information about properties and methods of the mPDF object [EN](info/mPDF-methods-properties.md) [ES](info/mPDF-métodos-propiedades.md)
 - img/logo.svg: only important images are here.
 
+## Building
+
+Clone git repository:
+
+    $ git clone https://github.com/davidgbonacho/Create-PDF-mPDF.git
+
+Navigate to the project directory:
+
+    $ cd Create-PDF-mPDF
+
+Install dependencies:
+    
+    $ composer install
+
 
 
 ![](img/logo.svg)
