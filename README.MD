@@ -1,6 +1,6 @@
 
 # Create a PDF with mPDF 
-How to create a PDF with mPDF library
+How to create a PDF with mPDF library.
 
 `[SimPIL are a series of ultra-simple examples of how to perform different operations with code. Uncomplicated.]`
 
