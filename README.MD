@@ -87,9 +87,11 @@ Install dependencies:
     $ composer install
 
 
+[Text in Spanish here](README_ES.MD)
+
 
 ![](img/logo.svg)
 ---
-`título:` Create a PDF with mPDF [`SimPIL`] 02/12/24\
-`autor:` David G. Bonacho &nbsp;&nbsp;  [www.tizedit.com](https://www.tizedit.com)
+`title:` Create a PDF with mPDF [`SimPIL`] 02/12/24\
+`author:` David G. Bonacho &nbsp;&nbsp;  [www.tizedit.com](https://www.tizedit.com)
 
