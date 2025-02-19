@@ -87,7 +87,7 @@ Install dependencies:
     $ composer install
 
 
-[Text in Spanish here](README_ES.MD)
+[Texto en español aquí](README_ES.MD)
 
 
 ![](img/logo.svg)
