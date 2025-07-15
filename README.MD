@@ -84,7 +84,7 @@ Navigate to the project directory:
 
 Install dependencies:
     
-    $ composer install
+    $ composer install 
 
 
 [Texto en español aquí](README_ES.MD)
