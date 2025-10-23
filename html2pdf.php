@@ -2,7 +2,7 @@
 
 /**
 *
-*  Build a PDF with mPDF
+*  Build a PDF with mPDF 
 *
 *  @author David G. Bonacho
 *
